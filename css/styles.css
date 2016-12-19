@@ -1,0 +1,71 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color:   #292928;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+}
+
+#shushi-details a{
+    text-decoration: none;
+
+}
+
+#header-nav{
+    background-color:   #d0cfcc;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand a{
+    text-decoration: none;
+}
+
+#collapsable-nav{
+    text-align: center;
+}
+
+
+#chicken-details{
+    background-color: #0087e1;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 5px;
+}
+
+#beef-details{
+    background-color: #f94c0a;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 5px;
+
+}
+
+#shushi-details{
+    background-color: #65000f;
+    border: 2px solid black; 
+    margin: 3px;
+    padding: 5px;    
+    
+}
+
+#chicken{
+    background-color: #65000f;
+    text-align: center;
+}
+
+#beef{
+    background-color: #0b3438;
+    text-align: center;
+}
+
+#shushi{
+    background-color: #0000ff;
+    text-align: center;
+}
