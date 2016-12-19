@@ -9,6 +9,8 @@ h1{
     text-align: center;
 }
 
+
+
 .row{
     width: 100%;
 }
@@ -25,6 +27,7 @@ h1{
 }
 .navbar-brand a{
     text-decoration: none;
+    color: #000;
 }
 
 #collapsable-nav{
@@ -33,39 +36,68 @@ h1{
 
 
 #chicken-details{
+    overflow: hidden;
+    position: relative;
     background-color: #0087e1;
     border: 2px solid black;
     margin: 3px;
-    padding: 5px;
+    padding: 20px;
 }
 
 #beef-details{
+    overflow: hidden;
+    position: relative;
     background-color: #f94c0a;
     border: 2px solid black;
     margin: 3px;
-    padding: 5px;
+    padding: 20px;
 
 }
 
 #shushi-details{
+    overflow: hidden;
+    position: relative;
     background-color: #65000f;
     border: 2px solid black; 
     margin: 3px;
-    padding: 5px;    
+    padding: 20px;    
     
 }
 
-#chicken{
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #000;
+
+}
+
+#chicken {
+     position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    opacity: .7;
     background-color: #65000f;
     text-align: center;
 }
 
-#beef{
+#beef {
+     position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    opacity: .7;
     background-color: #0b3438;
     text-align: center;
 }
 
-#shushi{
+#shushi {
+     position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    opacity: .7;
     background-color: #0000ff;
     text-align: center;
 }
